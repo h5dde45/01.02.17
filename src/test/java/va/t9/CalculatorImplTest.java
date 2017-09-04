@@ -27,4 +27,22 @@ public class CalculatorImplTest {
         double result = calculator.calculate("-3e3");
         assertEquals(-3000, result, 1e-9);
     }
+
+    @Test
+    public void addition_test() throws Exception {
+        double result = calculator.calculate("2+2");
+        assertEquals(4, result, 1e-9);
+    }
+
+    @Test
+    public void complex__expression_test() throws Exception {
+        double result = calculator.calculate("(2+2)*1.5/10-444");
+        assertEquals(-443.4, result, 1e-9);
+    }
+
+    @Test
+    public void function_test() throws Exception {
+        double result = calculator.calculate("sin(1)*sin(1)+cos(1)*cos(1)");
+        assertEquals(1, result, 1e-9);
+    }
 }
