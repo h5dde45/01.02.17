@@ -8,18 +8,20 @@ public class Calculator {
     }
 
     public void add(int... params) {
-        for (int param:params){
-            result+=param;
+        for (int param : params) {
+            result += param;
         }
     }
+
     public void div(int... params) {
-        if(params.length>0){
+        if (params.length > 0) {
 
-        }else {
+        } else {
 
         }
     }
-    public void cteanResult(){
-        result=0;
+
+    public void cteanResult() {
+        result = 0;
     }
 }
