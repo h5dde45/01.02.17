@@ -1,4 +1,4 @@
-package new_av.t3;
+package new_av.t3.h2;
 
 /**
  * @author foo bar
@@ -58,6 +58,9 @@ public class MyInteger {
     public Foo newFoo(){
         return new Foo();
     }
+
+}
+class NewInt{
 
 }
 

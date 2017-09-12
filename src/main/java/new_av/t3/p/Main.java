@@ -1,6 +1,6 @@
 package new_av.t3.p;
 
-import new_av.t3.MyInteger;
+import new_av.t3.h2.MyInteger;
 
 public class Main {
     public static void main(String[] args) {
