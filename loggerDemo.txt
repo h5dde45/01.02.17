@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-09-12T15:04:38</date>
+  <millis>1505221478704</millis>
+  <sequence>0</sequence>
+  <logger>new_av.t4.logging.ClassA</logger>
+  <level>FINE</level>
+  <class>new_av.t4.logging.ClassA</class>
+  <method>doSomething</method>
+  <thread>1</thread>
+  <message>Hello from ClassA(fine)</message>
+</record>
+<record>
+  <date>2017-09-12T15:04:38</date>
+  <millis>1505221478724</millis>
+  <sequence>1</sequence>
+  <logger>new_av.t4.logging.ClassA</logger>
+  <level>CONFIG</level>
+  <class>new_av.t4.logging.ClassA</class>
+  <method>doSomething</method>
+  <thread>1</thread>
+  <message>Hello from ClassA(config)</message>
+</record>
+<record>
+  <date>2017-09-12T15:04:38</date>
+  <millis>1505221478724</millis>
+  <sequence>2</sequence>
+  <logger>new_av.t4.logging.ClassA</logger>
+  <level>INFO</level>
+  <class>new_av.t4.logging.ClassA</class>
+  <method>doSomething</method>
+  <thread>1</thread>
+  <message>Hello from ClassA(info)</message>
+</record>
+<record>
+  <date>2017-09-12T15:04:38</date>
+  <millis>1505221478734</millis>
+  <sequence>3</sequence>
+  <logger>new_av.t4.logging.ClassB</logger>
+  <level>INFO</level>
+  <class>new_av.t4.logging.ClassB</class>
+  <method>doSomethingElse</method>
+  <thread>1</thread>
+  <message>Hello from ClassB(info): 343</message>
+</record>
+<record>
+  <date>2017-09-12T15:04:38</date>
+  <millis>1505221478734</millis>
+  <sequence>4</sequence>
+  <logger>new_av.t4.logging.ClassB</logger>
+  <level>SEVERE</level>
+  <class>new_av.t4.logging.ClassB</class>
+  <method>doSomethingElse</method>
+  <thread>1</thread>
+  <message>Exception</message>
+  <exception>
+    <message>java.lang.Exception</message>
+    <frame>
+      <class>new_av.t4.logging.ClassB</class>
+      <method>doSomethingElse</method>
+      <line>11</line>
+    </frame>
+    <frame>
+      <class>new_av.t4.logging.LoggingDemo</class>
+      <method>main</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>com.intellij.rt.execution.application.AppMain</class>
+      <method>main</method>
+      <line>147</line>
+    </frame>
+  </exception>
+</record>
+</log>
